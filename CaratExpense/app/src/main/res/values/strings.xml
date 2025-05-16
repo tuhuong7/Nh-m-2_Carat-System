@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Carat Expense</string>
+
+    <!-- Chung -->
+    <string name="welcome_back">Chào mừng trở lại</string>
+    <string name="user_name">Người dùng</string>
+    <string name="current_balance">Số dư hiện tại</string>
+    <string name="default_balance">5,000,000 ₫</string>
+    <string name="income">Thu nhập</string>
+    <string name="default_income">+2,500,000 ₫</string>
+    <string name="expenses">Chi tiêu</string>
+    <string name="default_expenses">-1,500,000 ₫</string>
+    <string name="add_expense">Thêm chi tiêu</string>
+    <string name="add_income">Thêm thu nhập</string>
+    <string name="reports">Báo cáo</string>
+    <string name="goals">Mục tiêu</string>
+    <string name="settings">Cài đặt</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="success">Thành công</string>
+    <string name="error">Lỗi</string>
+    <string name="loading">Đang tải...</string>
+    <string name="no_data">Không có dữ liệu</string>
+
+    <!-- API Keys -->
+    <string name="stock_api_key">2fbe6d7342f94bf7834fd07ddaf78eae</string>
+
+    <!-- Cổ phiếu -->
+    <string name="stocks_market">Thị trường chứng khoán</string>
+    <string name="error_loading_stocks">Không thể tải dữ liệu chứng khoán. Vui lòng thử lại sau.</string>
+    <string name="no_stocks_available">Không có dữ liệu chứng khoán.</string>
+    <string name="network_error">Lỗi kết nối mạng. Vui lòng kiểm tra kết nối của bạn.</string>
+    <string name="stock_price">%s</string>
+    <string name="stock_exchange">%s</string>
+
+    <!-- Các chuỗi khác -->
+    <!-- ... -->
+    <string name="news_api_key">3ul2BZVJa7XfJzXmv0Kjuw4U5fu5rn6s</string>
+</resources>

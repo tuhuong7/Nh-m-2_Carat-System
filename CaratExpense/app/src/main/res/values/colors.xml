@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Màu sắc mới cho giao diện -->
+    <color name="background_main">#26A69A</color>
+    <color name="background_light">#FFF3E0</color>
+    <color name="text_primary">#1D3C45</color>
+    <color name="text_secondary">#E67E22</color>
+    <color name="secondary_text">#E67E22</color>
+
+    <color name="teal_200">#03DAC5</color>
+
+    <!-- Màu sắc cũ -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#757575</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="green">#4CAF50</color>
+    <color name="mint_green">#E8F5E9</color>
+    <color name="red">#F44336</color>
+    <color name="orange">#FF9800</color>
+    <color name="blue">#2196F3</color>
+    <color name="purple">#9C27B0</color>
+    <color name="text_primary_old">#212121</color>
+    <color name="text_secondary_old">#757575</color>
+    <color name="gray_text">#808080</color>
+    <color name="teal">#009688</color>
+    <color name="pink">#E91E63</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="amber">#FFC107</color>
+    <color name="deep_orange">#FF5722</color>
+    <color name="brown">#795548</color>
+    <color name="beauty_color">#FF6347</color>
+    <color name="light_orange">#FFA500</color>
+    <color name="divider">#D3D3D3</color>
+
+    <color name="color_expense_background">#FFEBEE</color>
+    <color name="color_income_background">#E8F5E9</color>
+    <color name="color_radio_button_checked">#388E3C</color>
+    <color name="color_radio_button_unchecked">#B0BEC5</color>
+</resources>

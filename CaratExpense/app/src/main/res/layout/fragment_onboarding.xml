@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/carat_logo"
+        android:layout_marginBottom="40dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/orange"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TÊN CỦA BẠN LÀ GÌ"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Nhập tên của bạn..."
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="24dp"
+        android:singleLine="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_check"
+        android:contentDescription="Xác nhận tên"
+        app:backgroundTint="@color/green"
+        app:tint="@color/white"
+        android:layout_marginBottom="24dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carat xin gửi lời chào đến bạn, hi vọng ứng dụng của chúng tôi sẽ giúp bạn quản lý chi tiêu tốt hơn. Thân ái."
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp" />
+
+</LinearLayout>
