@@ -96,7 +96,7 @@ Nhóm 2_Carat-System/
 ## Hướng dẫn cài đặt
 1. Clone repository:
 ```bash
-git clone [URL_REPOSITORY]
+git clone https://github.com/tuhuong7/Nhom-2-Carat-System.git
 ```
 
 2. Mở project CaratExpense trong Android Studio
